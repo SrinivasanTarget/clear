@@ -1,0 +1,100 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '--access=public' ]
+2 info using npm@3.6.0
+3 info using node@v5.7.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/srinivasansekar/AppiumRepo/clear',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/srinivasansekar/.npm/clear/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/srinivasansekar/.npm correctMkdir not in flight; initializing
+10 info lifecycle clear@1.0.0~prepublish: clear@1.0.0
+11 silly lifecycle clear@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/srinivasansekar/.npm/clear/1.0.0/package.tgz',
+12 verbose tar pack   '/Users/srinivasansekar/AppiumRepo/clear' ]
+13 verbose tarball /Users/srinivasansekar/.npm/clear/1.0.0/package.tgz
+14 verbose folder /Users/srinivasansekar/AppiumRepo/clear
+15 verbose addLocalTarball adding from inside cache /Users/srinivasansekar/.npm/clear/1.0.0/package.tgz
+16 verbose correctMkdir /Users/srinivasansekar/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd clear@1.0.0
+18 verbose afterAdd /Users/srinivasansekar/.npm/clear/1.0.0/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/srinivasansekar/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/srinivasansekar/.npm/clear/1.0.0/package/package.json written
+21 silly publish { name: 'clear',
+21 silly publish   version: '1.0.0',
+21 silly publish   description: 'clear terminal (supports all platforms)',
+21 silly publish   main: 'cli.js',
+21 silly publish   scripts: { test: 'node cli.js' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/SrinivasanTarget/cls.git' },
+21 silly publish   keywords: [ 'clear' ],
+21 silly publish   author: { name: 'Srinivasan Sekar' },
+21 silly publish   license: 'MIT',
+21 silly publish   bugs: { url: 'https://github.com/SrinivasanTarget/cls/issues' },
+21 silly publish   homepage: 'https://github.com/SrinivasanTarget/cls#readme',
+21 silly publish   readme: '# clear\nclear terminal (supports all platforms)\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '620b43f34a5a83c8b2581e91b49fb62dc1200d6d',
+21 silly publish   _id: 'clear@1.0.0',
+21 silly publish   _shasum: '1b9276fc595715af44223fbda01a999025742a97',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name clear
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry uri https://registry.npmjs.org/clear
+27 verbose publish registryBase https://registry.npmjs.org/
+28 silly publish uploading /Users/srinivasansekar/.npm/clear/1.0.0/package.tgz
+29 verbose request uri https://registry.npmjs.org/clear
+30 verbose request sending authorization for write operation
+31 info attempt registry request try #1 at 5:15:36 PM
+32 verbose request using bearer token for auth
+33 verbose request id 3df448b993e83eef
+34 http request PUT https://registry.npmjs.org/clear
+35 http 403 https://registry.npmjs.org/clear
+36 verbose headers { 'content-type': 'application/json',
+36 verbose headers   'cache-control': 'max-age=300',
+36 verbose headers   'content-length': '97',
+36 verbose headers   'accept-ranges': 'bytes',
+36 verbose headers   date: 'Sat, 05 Mar 2016 11:45:38 GMT',
+36 verbose headers   via: '1.1 varnish',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+36 verbose headers   'x-cache': 'MISS',
+36 verbose headers   'x-cache-hits': '0',
+36 verbose headers   'x-timer': 'S1457178337.211738,VS0,VE817' }
+37 verbose request invalidating /Users/srinivasansekar/.npm/registry.npmjs.org/clear on PUT
+38 error publish Failed PUT 403
+39 verbose stack Error: You do not have permission to publish 'clear'. Are you logged in as the correct user? : clear
+39 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+39 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+39 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+39 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+39 verbose stack     at emitTwo (events.js:100:13)
+39 verbose stack     at Request.emit (events.js:185:7)
+39 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1035:10)
+39 verbose stack     at emitOne (events.js:95:20)
+39 verbose stack     at Request.emit (events.js:182:7)
+39 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:962:12)
+40 verbose statusCode 403
+41 verbose pkgid clear
+42 verbose cwd /Users/srinivasansekar/AppiumRepo/clear
+43 error Darwin 15.2.0
+44 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish" "--access=public"
+45 error node v5.7.0
+46 error npm  v3.6.0
+47 error code E403
+48 error You do not have permission to publish 'clear'. Are you logged in as the correct user? : clear
+49 error If you need help, you may report this error at:
+49 error     <https://github.com/npm/npm/issues>
+50 verbose exit [ 1, true ]

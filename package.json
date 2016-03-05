@@ -1,5 +1,5 @@
 {
-  "name": "clear",
+  "name": "cmdclear",
   "version": "1.0.0",
   "description": "clear terminal (supports all platforms)",
   "main": "cli.js",

@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node cli.js"
   },
+  "bin": {
+    "cmdclear": "cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SrinivasanTarget/cls.git"

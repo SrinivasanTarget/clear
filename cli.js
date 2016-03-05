@@ -1,0 +1,1 @@
+process.stdout.write('\u001bc');

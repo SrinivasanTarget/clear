@@ -1,0 +1,22 @@
+{
+  "name": "cls",
+  "version": "1.0.0",
+  "description": "clear terminal (supports all platforms)",
+  "main": "cli.js",
+  "scripts": {
+    "test": "node cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrinivasanTarget/cls.git"
+  },
+  "keywords": [
+    "clear"
+  ],
+  "author": "Srinivasan Sekar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SrinivasanTarget/cls/issues"
+  },
+  "homepage": "https://github.com/SrinivasanTarget/cls#readme"
+}

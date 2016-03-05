@@ -1,1 +1,1 @@
-process.stdout.write('\u001bc');
+process.stdout.write(`\u001bc`);

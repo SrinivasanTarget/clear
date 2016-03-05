@@ -2,6 +2,5 @@ language: node_js
 sudo: false
 node_js:
   - "stable"
-  - "LTS"
   - "4"
   - "0.12"

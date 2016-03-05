@@ -1,4 +1,3 @@
-# clear
-[![Build Status](https://team-appium.ci.cloudbees.com/job/Appium/badge/icon)](https://travis-ci.org/SrinivasanTarget/cmdclear)
+# clear [![Build Status](https://travis-ci.org/SrinivasanTarget/cmdclear)](https://travis-ci.org/SrinivasanTarget/cmdclear)
 
 clear terminal (supports all platforms)
